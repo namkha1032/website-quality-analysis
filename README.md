@@ -1,20 +1,20 @@
 # About the project
-This project analyses the quality of a website based on its Exit Rate, Bounce Rate and Page Value. The programming language used is [R](https://www.r-project.org/).
-- Page Value is the average value that the page contributes to our website's revenue
-- An Exit occurs when a user exits your website after landing on a page
-- A Bounce occurs whenever a user enters the page and subsequently exits without visiting any other pages on that website or interacting with any of the elements on the page (e.g. commenting)
+This project analyses the quality of a website based on its ***Exit Rate***, ***Bounce Rate*** and ***Page Value***. The programming language used is [R](https://www.r-project.org/).
+- ***Page Value*** is the average value that the page contributes to our website's revenue
+- An Exit occurs when a user exits your website after landing on a page -> ***Exit Rate*** is determined by calculating total number of Exits over total number of views the page received
+- A Bounce occurs whenever a user enters the page and subsequently exits without visiting any other pages on that website or interacting with any of the elements on the page (e.g. commenting) -> ***Bounce Rate*** is determined by calculating total number of Bounces over total number of times that the page is visited first
 # About the data
 We use the dataset compiled by [Sakar, C.O., Polat, S.O., Katircioglu, M. et al. Neural Comput & Applic (2018)](https://archive.ics.uci.edu/ml/datasets/Online+Shoppers+Purchasing+Intention+Dataset). The dataset predicts the correlation between visitor’s shopping intention and website abandonment likelihood, using variables like ExitRates, BounceRates and PageValues.
 # Implementation progress
 The progress will be conducted by the following 8 steps:
-1. Sample the data. This step includes importing data, cleaning data and sampling data.
-2. Compare the means of the data, using Boxplot and t-test.
-3. Build the linear model, using R built-in command.
-4. Test the linearity of the data, using Residuals vs Fitted plot.
-5. Test the normality of the data, using Histogram, Density curve, QQ plot and Shapiro-Wilk test.
-6. Test the homoscedasticity of the data, using Scale-location plot and Breusch-Pagan test.
-7. Test the independence of the data, using Durbin - Watson test.
-8. Analyze the linear model, using R built-in command.
+- **Step 1**: *Sample the data*. This step includes importing data, cleaning data and sampling data.
+- **Step 2**: *Compare the means of the data*, using Boxplot and t-test.
+- **Step 3**: *Build the linear model*, using R built-in command.
+- **Step 4**: *Test the linearity of the data*, using Residuals vs Fitted plot.
+- **Step 5**: *Test the normality of the data*, using Histogram, Density curve, QQ plot and Shapiro-Wilk test.
+- **Step 6**: *Test the homoscedasticity of the data*, using Scale-location plot and Breusch-Pagan test.
+- **Step 7**: *Test the independence of the data*, using Durbin - Watson test.
+- **Step 8**: *Analyze the linear model*, using R built-in command.
 
 For all the tests, we will use the confidence interval of 95% which is assumed by RStudio program by default.
 
